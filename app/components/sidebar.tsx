@@ -173,17 +173,13 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          {/*<div className={styles["sidebar-action"]}>*/}
-          {/*  <a href={REPO_URL} target="_blank">*/}
-          {/*    <IconButton icon={<GithubIcon />} shadow />*/}
-          {/*  </a>*/}
-          {/*</div>*/}
+
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
             <a href="http://www.lpython.top/" target="_blank">
               <IconButton icon={<PluginIcon />} shadow />
+            </a>
           </div>
+        </div>
         <div>
           <IconButton
             icon={<AddIcon />}
