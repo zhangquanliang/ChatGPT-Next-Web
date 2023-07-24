@@ -4,7 +4,12 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      // "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "通过以下方式联系我们，免费获取[密码]，在[设置](/#/settings)页填入密码，开启你的AI梦幻之旅。\n" +
+      "如果您有任何疑问、需求或建议，请随时联系我们。我们的团队将尽快回复您，并努力满足您的需求。您可以通过以下方式与我们取得联系：\n" +
+      "\n" +
+      "QQ：[3415212725]\n" +
+      "微信：[Cheer_ZQL]\n",
   },
   Auth: {
     Title: "需要密码",
@@ -257,7 +262,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "我是您的AI助理小妮 有什么可以帮您!",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
